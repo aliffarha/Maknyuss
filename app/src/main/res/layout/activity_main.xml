@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="459dp"
+        android:layout_height="275dp"
+        android:background="@drawable/bgatas"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-15dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="122dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/logo1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/menuharini"
+        android:layout_width="151dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="36dp"
+
+        android:background="@drawable/menuharini"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/menulogo"
+        android:layout_width="352dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/menulogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/homelogo"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/batasbot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="165dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="12dp"
+
+        android:layout_marginTop="60dp"
+        android:background="@drawable/custom_button"
+
+        android:onClick="Pindah"
+        android:text="Resep Masakan"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menulogo"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonsaran"
+        android:layout_width="165dp"
+        android:layout_height="92dp"
+
+        android:layout_marginTop="16dp"
+
+        android:background="@drawable/custom_button"
+        android:onClick="Pindah2"
+        android:text="Saran"
+
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/homelogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.085"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="165dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/custom_button"
+        android:onClick="Pindah1"
+        android:text="Rencana Masak"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/menulogo"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="242dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Date"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuharini"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="149dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/logo1"
+        app:layout_constraintBottom_toBottomOf="@+id/homelogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/homelogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "862398486029",
+    "firebase_url": "https://maknyuss-67f75-default-rtdb.firebaseio.com",
+    "project_id": "maknyuss-67f75",
+    "storage_bucket": "maknyuss-67f75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862398486029:android:7dbf0375dcd934937da744",
+        "android_client_info": {
+          "package_name": "com.example.maknyuss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862398486029-n6vtddouciin8csftmsefp78g79ud1dj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAri0q3WUW4fgOJDE3Mvx_zKDkTd48voXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862398486029-n6vtddouciin8csftmsefp78g79ud1dj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

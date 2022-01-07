@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints"
+    tools:context=".saran">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="330dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/maknyuss3"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/getnama"
+        android:layout_width="58dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="96dp"
+        android:text="NAMA"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/inputnama"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/getkritik"
+        android:layout_width="62dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="68dp"
+        android:text="KRITIK"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/inputkritik"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getnama" />
+
+    <TextView
+        android:id="@+id/getsaran"
+        android:textStyle="bold"
+        android:layout_width="53dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="124dp"
+        android:text="SARAN"
+        app:layout_constraintEnd_toStartOf="@+id/inputsaran"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getkritik" />
+
+    <EditText
+        android:id="@+id/inputkritik"
+        android:textStyle="bold"
+        android:hint="Isikan Kritik Anda"
+        android:layout_width="260dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputnama" />
+
+    <EditText
+        android:id="@+id/inputnama"
+        android:textStyle="bold"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="84dp"
+        android:hint="Isikan nama anda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/inputsaran"
+        android:textStyle="bold"
+        android:hint="Isikan Saran Anda"
+        android:layout_width="260dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputkritik" />
+
+    <Button
+        android:id="@+id/btnkirim"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Kirim"
+        android:textColor="@color/white"
+        android:background="@drawable/custombuttonrencana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputsaran" />
+
+    <ImageView
+        android:id="@+id/homelogo"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/batasbot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/home"
+        android:onClick="PindahHome"
+
+        app:layout_constraintBottom_toBottomOf="@+id/homelogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/homelogo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
